@@ -1,0 +1,21 @@
+{
+    "FunctionName": "funcao-numeros-amigaveis",
+    "FunctionArn": "arn:aws:lambda:us-east-1:260329017845:function:funcao-numeros-amigaveis",
+    "Runtime": "java8",
+    "Role": "arn:aws:iam::262329008835:role/service-role/funcao-numeros-amigaveis-role-as53ye0t",
+    "Handler": "br.alvaro.NumerosAmigaveisHandler::handleRequest",
+    "CodeSize": 3062,
+    "Description": "",
+    "Timeout": 15,
+    "MemorySize": 512,
+    "LastModified": "2021-02-10T15:30:59.464+0000",
+    "CodeSha256": "uqZgo0swV1hcneU7iy3DAy7AvumpGAUMIW7JW5PXirc=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "298bdd59-f8e0-4269-8444-38a4a995b1dd",
+    "State": "Active",
+    "LastUpdateStatus": "Successful",
+    "PackageType": "Zip"
+}

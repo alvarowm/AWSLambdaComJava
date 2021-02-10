@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "funcao-numeros-amigaveis-API",
+    "description": "Created by AWS Lambda",
+    "version": "2021-02-10T15:13:46Z"
+  },
+  "servers": [
+    {
+      "url": "https://rh76g7awdk.execute-api.us-east-1.amazonaws.com/{basePath}",
+      "variables": {
+        "basePath": {
+          "default": "/ApiGatewayExemplo"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/funcao-numeros-amigaveis": {
+      "x-amazon-apigateway-any-method": {
+        "responses": {
+          "200": {
+            "description": "200 response",
+            "content": {}
+          }
+        },
+        "x-amazon-apigateway-integration": {
+          "uri": "arn:aws:apigateway:us-east-1:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-1:260329007835:function:funcao-numeros-amigaveis/invocations",
+          "httpMethod": "POST",
+          "responses": {
+            "default": {
+              "statusCode": "200"
+            }
+          },
+          "passthroughBehavior": "when_no_match",
+          "contentHandling": "CONVERT_TO_TEXT",
+          "type": "aws"
+        }
+      }
+    }
+  },
+  "components": {}
+}
