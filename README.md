@@ -10,19 +10,23 @@ Números amigáveis:<br>
 
 Para testar envie o payload:
 
+```
 {
   "x": 220,
   "y": 284
 }
+```
 
 que deve retornar "true"
 
 ou 
 
+```
 {
   "x": 220,
   "y": 285
 }
+```
 
 para "false"
 
